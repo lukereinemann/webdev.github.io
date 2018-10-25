@@ -14,9 +14,22 @@ li{
     padding: 1000;
 }
 
-.body {
-    background-color: black;
-}
+  body {
+    background-color: #c3b495;
+    }
+
+        @media only screen and (max-width: 600px) {
+            body {
+            background-color: black;
+            }
+        }       
+        
+        @media only screen and (min-width: 1200px){
+            body{
+            background-color: #2e7181;
+            }
+        }
+
 
 /* Container holding the image and the text */
 .container {
@@ -123,5 +136,13 @@ a:visited { text-decoration: none; color:white; }
 a:hover { text-decoration: none; color:blue; }
 a:focus { text-decoration: none; color:yellow; }
 a:hover, a:active { text-decoration: none; color:#2e7181}
+
+
+
+  
+
+
+
+
 
 

@@ -1,0 +1,20 @@
+
+#container {
+    border: 2px black solid;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url('https://www.akc.org/wp-content/themes/akc/component-library/assets//img/welcome.jpg')
+    
+}
+
+div{
+    height: 700px;
+    width: 700px;
+    
+}
+#burger {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    transition: left .5s ease-in, top .5s ease-in;
+}

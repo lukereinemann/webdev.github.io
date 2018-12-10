@@ -1,0 +1,169 @@
+.centered {
+    position: absolute;
+/*    top: 3%;*/
+    top: 250px;
+    left: 52%;
+    transform: translate(-50%, -50%);
+     
+    font-size: 30px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+/*    font-family: Verdana;*/
+  
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic);
+
+/* layout */
+html, body, article, .glass::before {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.glass {
+  position: relative;
+}
+
+.glass::before {
+  z-index: -1;
+  display: block;
+  position: absolute;
+  content: ' ';
+}
+
+/* backgrounds */
+body {
+  /* background-image: url('path/to/image.jpg'); Actual image for this demo is a data-uri, see below */
+  background-size: cover;
+}
+
+.glass::before {
+  /* background-image: url('path/to/image.jpg'); Actual image for this demo is a data-uri, see below */
+  /* Prefix free isn't picking up this one */
+  -webkit-filter: url('#blur');
+  filter: url('#blur');
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.glass {
+  background-color: white;
+}
+
+/* transformations */
+.glass.down {
+  transform: translateY(100%) translateY(4em) translateZ(0);
+}
+
+.glass.down::before {
+  transform: translateY(-100%) translateY(5em) translateZ(0);
+}
+
+.glass.up, .glass.up::before {
+  transform: translateY(0) translateZ(0);
+}
+
+/* transitions */
+.glass, .glass::before {
+  transition: transform 0.5s ease-out;
+}
+
+/* typography, etc. */
+
+p {
+  font: 1.2em / 1.4 'Europa', sans-serif;
+  max-width: 30em;
+  margin: 0.5em auto;
+  padding: 0 1em;
+}
+
+h1 {
+  font: 4em / 1.4 'kepler-std', sans-serif;
+  margin: 0 1em;
+  text-align: center;
+  color: ;
+}
+
+h2{
+  font: 4em / 1.4 'kepler-std', serif;
+  margin: 0 1em;
+  text-align: center;
+  color: ;
+ }
+
+p1{
+    font: 1.2em / 1.4 'kepler-std', serif;
+    font-size: 27px;
+    padding-right: 509px;
+}
+
+p2{
+  font: 1.2em / 1.4 'kepler-std', serif;
+    font-size: 27px;
+    padding-left: 425px;
+
+}
+
+em {
+  font-style: italic;
+}
+
+.toggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 1.25em;
+  height: 1.25em;
+  background-color: rgba(51, 51, 51, 0.5);
+  font-size: 4em;
+  color: white;
+  color: white;
+  border: 0;
+  border-radius: 0 0 10%;
+}
+
+/* data-uri resources */
+body, .glass::before {
+  background-image: url('https://i2.wp.com/thewideo.com/wp-content/uploads/2018/10/9S5A2526.jpg?fit=1400%2C2100');
+}
+
+a { color:black}
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:white}
+
+.videoContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

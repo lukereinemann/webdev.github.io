@@ -9,30 +9,20 @@ html, body {
   overflow: hidden;
   height: 100%;
   width: 100%;
-/*  background: black;*/
   background-image: url("https://bandwagon-gig-finder.s3.amazonaws.com/editorials/uploads/article/367/tommy.jpg");
-/*    switching on an axis with background repeat****/
-  font-family: 'Europa';
+  font-family: 'europa'; 
+  font-size: 20px;       
 }
 
-/* Container holding the image and the text */
 .container {
     position: relative;
     text-align: center;
     color: white;
 }
 
-/* Bottom left text */
-.bottom-left {
-    position: absolute;
-    top: 72px;
-    left: 70px;
-    font-family: Verdana; 
-    font-family: sans-serif
-    color:#c3b495;
-}
 
-/* Top left text */
+
+
 .top-left {
     position: absolute;
     top: 8px;
@@ -40,7 +30,6 @@ html, body {
     color: white;
     font-family: Verdana; 
     font-family: sans-serif;
-    
 }
 
 
@@ -149,6 +138,8 @@ a:visited { text-decoration: none; color:white; }
 a:hover { text-decoration: none; color:blue; }
 a:focus { text-decoration: none; color:yellow; }
 a:hover, a:active { text-decoration: none; color:black}
+
+
 
 
 

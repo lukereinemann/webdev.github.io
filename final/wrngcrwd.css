@@ -120,7 +120,7 @@ p1{
 p2{
   font: 1.2em / 1.4 'Europa', sans-serif;
     font-size: 27px;
-    padding-left: 425px;
+    padding-left: 670px;
 
 }
 
@@ -145,7 +145,7 @@ em {
 
 /* data-uri resources */
 body, .glass::before {
-  background-image: url('https://i2.wp.com/thewideo.com/wp-content/uploads/2018/10/9S5A2526.jpg?fit=1400%2C2100');
+  background-image: url('http://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/201311/223435249.jpg');
 }
 
 a { color:black}

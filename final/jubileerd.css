@@ -94,7 +94,8 @@ p {
   font: 1.2em / 1.4 'Europa', sans-serif;
   max-width: 30em;
   margin: 0.5em auto;
-  padding: 0 1em;
+  padding: 0 1em; 
+
 }
 
 h1 {
@@ -120,7 +121,8 @@ p1{
 p2{
   font: 1.2em / 1.4 'Europa', sans-serif;
     font-size: 27px;
-    padding-left: 425px;
+    padding-left: 677px;
+    
 
 }
 

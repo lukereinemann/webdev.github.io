@@ -1,0 +1,370 @@
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  
+  
+}
+
+.container1 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 60px;
+    }
+
+.container2 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 120px;
+  
+}
+
+.container3 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 180px;
+  
+}
+
+.container4 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 240px;
+  
+}
+
+.container5 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 300px;
+}
+
+.container6 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 360px;
+}
+
+.container7 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 420px;
+}
+
+.container8 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 480px;
+}
+
+.container9 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 540px;
+}
+
+.container10 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 600px;
+}
+
+.container11 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 660px;
+}
+
+.container12 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 720px;
+}
+
+.container13 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 780px;
+}
+
+.container14 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 840px;
+}
+
+.container15 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 900px;
+}
+
+.container16 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 960px;
+}
+
+.container17 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 1020px;
+}
+
+.container18 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 1080px;
+}
+
+.container19 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 1140px;
+}
+
+.container20 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 1200px;
+}
+
+.container21 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 1260px;
+}
+
+.container22 {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Europa", sans-serif;
+  top: 1320px;
+  bottom: 60px;    
+}
+
+
+
+.image {
+  display: block;
+  width: 720px;
+  height: 400px;
+    
+}
+
+h1{
+    font-family: "Europa", sans-serif;
+    font-size: 40px;
+    color: white;
+    color: white;
+}
+
+h2{
+    font-family: "Europa", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+h3{
+    font-family: "Europa", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0s ease;
+  background-color: black;
+  font-family: "kepler-std", serif;
+` 
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.container3:hover .overlay {
+  opacity: 1;
+}
+
+.container4:hover .overlay {
+  opacity: 1;
+}
+
+.container5:hover .overlay {
+  opacity: 1;
+}
+
+.container6:hover .overlay {
+  opacity: 1;
+}
+
+.container7:hover .overlay {
+  opacity: 1;
+}
+
+.container8:hover .overlay {
+  opacity: 1;
+}
+
+.container9:hover .overlay {
+  opacity: 1;
+}
+
+.container10:hover .overlay {
+  opacity: 1;
+}
+
+.container11:hover .overlay {
+  opacity: 1;
+}
+
+.container12:hover .overlay {
+  opacity: 1;
+}
+
+.container13:hover .overlay {
+  opacity: 1;
+}
+
+.container14:hover .overlay {
+  opacity: 1;
+}
+
+.container15:hover .overlay {
+  opacity: 1;
+}
+
+.container16:hover .overlay {
+  opacity: 1;
+}
+
+.container17:hover .overlay {
+  opacity: 1;
+}
+
+.container18:hover .overlay {
+  opacity: 1;
+}
+
+.container19:hover .overlay {
+  opacity: 1;
+}
+
+.container20:hover .overlay {
+  opacity: 1;
+}
+
+.container21:hover .overlay {
+  opacity: 1;
+}
+
+.container22:hover .overlay {
+  opacity: 1;
+}
+
+.container23:hover .overlay {
+  opacity: 1;
+}
+
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center; 
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  height: 100%;
+  width: 100%;
+/*  background: black;*/
+  background-image: url("https://bandwagon-gig-finder.s3.amazonaws.com/editorials/uploads/article/367/tommy.jpg");
+/*    switching on an axis with background repeat****/
+  font-family: 'Europa';
+}
+
+a { color:white}
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black}

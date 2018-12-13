@@ -1,20 +1,8 @@
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
-}
-
 .container {
   position: relative;
   width: 50%;
   margin: 0 auto;
-  font-family: "Europa", sans-serif;
-  
-  
+  font-family: "Europa", sans-serif; 
 }
 
 .container1 {
@@ -197,8 +185,6 @@
   bottom: 60px;    
 }
 
-
-
 .image {
   display: block;
   width: 720px;
@@ -225,8 +211,6 @@ h3{
     color: white;
 }
 
-
-
 .overlay {
   position: absolute;
   top: 0;
@@ -234,12 +218,11 @@ h3{
   left: 0;
   right: 0;
   height: 100%;
-  width: 100%;
+  width: 720px;
   opacity: 0;
   transition: 0s ease;
   background-color: black;
   font-family: "kepler-std", serif;
-` 
 }
 
 .container:hover .overlay {
@@ -357,9 +340,7 @@ html, body {
   overflow: scroll;
   height: 100%;
   width: 100%;
-/*  background: black;*/
   background-image: url("https://bandwagon-gig-finder.s3.amazonaws.com/editorials/uploads/article/367/tommy.jpg");
-/*    switching on an axis with background repeat****/
   font-family: 'Europa';
 }
 
